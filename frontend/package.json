@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt": "^3.12.2",
+    "nuxt-security": "^2.0.0-rc.6",
+    "nuxt-svgo": "^4.0.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  }
+}
